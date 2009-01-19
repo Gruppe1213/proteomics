@@ -1,6 +1,7 @@
 #!/usr/bin/perl -w
 
-#Version 1 Proteomics
+#Version 1.1
+
 
 #my (%as,%protein,$id,$sequence,);
 
@@ -30,6 +31,7 @@ while(<HUMANS>)
    $sequence= $sequence.$zeile;
   }
 
+$protein{$id}=$sequence;
   
   #print $id."\n";
   #print $protein{$id}."\n";
